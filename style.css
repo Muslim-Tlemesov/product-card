@@ -39,6 +39,7 @@ body {
   font-size: 12px;
   margin-top: 30px;
   margin-bottom: 5px;
+  text-transform: uppercase;
 }
 
 .card-description {
@@ -58,7 +59,7 @@ body {
   margin-bottom: 5px;
 }
 
-.composition-1 {
+.composition-last {
   margin-bottom: 25px;
 }
 
@@ -69,6 +70,5 @@ body {
 }
 
 .numbers {
-  font-weight: 400;
   font-size: 20px;
 }
