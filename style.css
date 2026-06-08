@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -23,14 +23,19 @@ body {
   font-size: 70px;
   font-weight: 400px;
   line-height: 78px;
-  margin: 0;
+  margin-bottom: 110px;
   text-align: center;
 }
 
 .products-list {
   list-style-type: none;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 45px;
+  justify-content: center;
+  width: 1110px;
 }
 
 .text {
@@ -55,6 +60,10 @@ body {
   margin-bottom: 15px;
 }
 
+.all-composition {
+  padding-left: 15px;
+}
+
 .composition {
   margin-bottom: 5px;
 }
@@ -63,10 +72,15 @@ body {
   margin-bottom: 25px;
 }
 
+.product-price {
+  margin-top: 25px;
+  display: flex;
+  gap: 170px;
+}
+
 .price {
   font-weight: 700;
   font-size: 20px;
-  margin-right: 161px;
 }
 
 .numbers {
