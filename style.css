@@ -4,6 +4,7 @@
 
 body {
   font-family: Montserrat, Arial, Helvetica, sans-serif;
+  background-image: url("/images/bg_1.png");
   font-size: 13px;
   line-height: 18px;
   margin-left: 25px;
@@ -21,8 +22,9 @@ body {
 
 .title {
   font-size: 70px;
-  font-weight: 400px;
+  font-weight: 400;
   line-height: 78px;
+  margin-top: 220px;
   margin-bottom: 110px;
   text-align: center;
 }
@@ -33,7 +35,8 @@ body {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-  gap: 45px;
+  row-gap: 45px;
+  column-gap: 45px;
   justify-content: center;
   width: 1110px;
 }
@@ -75,7 +78,7 @@ body {
 .product-price {
   margin-top: 25px;
   display: flex;
-  gap: 170px;
+  justify-content: space-between;
 }
 
 .price {
