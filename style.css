@@ -4,28 +4,43 @@
 
 body {
   font-family: Montserrat, Arial, Helvetica, sans-serif;
-  background-image: url("/images/bg_1.png");
   font-size: 13px;
   line-height: 18px;
-  margin-left: 25px;
   color: #515076;
+}
+
+.container {
+  max-width: 1280px;
+  margin: auto;
+  background-image: url("/images/bg_1.png");
+  background-repeat: no-repeat;
+  background-size: 790px 697px;
+  background-position: 85px 0px;
 }
 
 .card {
   background-color: #F7F7FA;
   width: 340px;
   padding: 25px;
-  img {
+  /* img {
     width: 290px;
-  }
+  } */
 }
+
+
+.card:hover {
+  transform: translateY(-10px);
+  transition: transform 0.3s ease;
+}
+
 
 .title {
   font-size: 70px;
   font-weight: 400;
   line-height: 78px;
-  margin-top: 220px;
-  margin-bottom: 110px;
+  padding-top: 220px;
+  padding-bottom: 110px;
+  margin: 0px;
   text-align: center;
 }
 
@@ -35,10 +50,10 @@ body {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-  row-gap: 45px;
-  column-gap: 45px;
+  gap: 45px;
   justify-content: center;
-  width: 1110px;
+  max-width: 1110px;
+  cursor: pointer;
 }
 
 .text {
@@ -89,3 +104,50 @@ body {
 .numbers {
   font-size: 20px;
 }
+
+.button {
+  font-family: Montserrat;
+  color: #515076;
+  background-color: #FFFFFF;
+  width: 102px;
+  height: 31.62px;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 12px auto 12px;
+  padding: 6px 12px;
+  box-shadow: 0px 0px 0px 1px #464F6029;
+  box-shadow: 0px 1px 1px 0px #0000001A;
+  border: 1px solid #747a86;
+  border-radius: 6px;
+  cursor: pointer;
+  }
+
+  .button:default {
+  color: #FFFFFF;
+  box-shadow: 0px 0px 0px 1px #464F6029;
+  box-shadow: 0px 1px 1px 0px #0000001A;
+  }
+
+.button:hover {
+  color: #8f8b8b;
+  box-shadow: 0px 0px 0px 1px #464F6052,
+  0px 1px 1px 0px #0000001A;
+  transition: all 0ms;
+  }
+
+.button:focus {
+  box-shadow: 0px 0px 0px 4px #4FDB8A33;
+  box-shadow: 0px 0px 0px 1px #464F6052;
+  box-shadow: 0px 1px 1px 0px #0000001A;
+}
+
+.button:disabled {
+  box-shadow: 0px 0px 0px 1px #464F6033;
+  color: #F7F9FC;
+}
+
+.button:active {
+  color: rgb(139, 3, 3);
+  }
