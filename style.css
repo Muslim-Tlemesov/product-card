@@ -117,35 +117,21 @@ body {
   align-items: center;
   margin: 12px auto 12px;
   padding: 6px 12px;
-  box-shadow: 0px 0px 0px 1px #464F6029;
-  box-shadow: 0px 1px 1px 0px #0000001A;
   border: 1px solid #747a86;
   border-radius: 6px;
   cursor: pointer;
   }
 
-  .button:default {
-  color: #FFFFFF;
-  box-shadow: 0px 0px 0px 1px #464F6029;
-  box-shadow: 0px 1px 1px 0px #0000001A;
-  }
-
 .button:hover {
-  color: #8f8b8b;
+  color: #8c8b8f;
   box-shadow: 0px 0px 0px 1px #464F6052,
   0px 1px 1px 0px #0000001A;
-  transition: all 0ms;
   }
 
 .button:focus {
   box-shadow: 0px 0px 0px 4px #4FDB8A33;
   box-shadow: 0px 0px 0px 1px #464F6052;
   box-shadow: 0px 1px 1px 0px #0000001A;
-}
-
-.button:disabled {
-  box-shadow: 0px 0px 0px 1px #464F6033;
-  color: #F7F9FC;
 }
 
 .button:active {
