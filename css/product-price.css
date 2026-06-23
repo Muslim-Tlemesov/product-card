@@ -1,0 +1,14 @@
+.product-price {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-price__cost {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.product-price__numbers {
+  font-size: 20px;
+}

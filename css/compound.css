@@ -1,0 +1,17 @@
+compound {
+  width: 252px;
+}
+
+.compound__name {
+  font-weight: 400;
+}
+
+.compound__list {
+  padding-left: 0px;
+  list-style-position: inside;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  margin-top: 5px;
+  margin-bottom: 29.64px;
+}

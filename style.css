@@ -11,68 +11,23 @@ body {
 
 .container {
   max-width: 1280px;
+  height: 2574px;
   margin: auto;
+  background-color: #FFFFFF;
   background-image: url("/images/bg_1.png");
   background-repeat: no-repeat;
   background-size: 790px 697px;
   background-position: 85px 0px;
 }
 
-.card {
-  background-color: #F7F7FA;
-  width: 340px;
-  padding: 25px;
-  /* img {
-    width: 290px;
-  } */
-}
-
-
-.card:hover {
-  transform: translateY(-10px);
-  transition: transform 0.3s ease;
-}
-
-
-.title {
-  font-size: 70px;
-  font-weight: 400;
-  line-height: 78px;
-  padding-top: 220px;
-  padding-bottom: 110px;
-  margin: 0px;
-  text-align: center;
-}
-
-.products-list {
-  list-style-type: none;
-  margin: 0 auto;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 45px;
-  justify-content: center;
-  max-width: 1110px;
-  cursor: pointer;
-}
-
-.text {
-  color: #A5A3B9;
-  font-weight: 400;
-  font-size: 12px;
-  margin-top: 30px;
-  margin-bottom: 5px;
-  text-transform: uppercase;
-}
-
-.card-description {
+.name {
   font-weight: 700;
   font-size: 20px;
   margin-top: 5px;
   margin-bottom: 5px;
 }
 
-.main-text {
+.description {
   font-weight: 400;
   margin-top: 5px;
   margin-bottom: 15px;
@@ -91,7 +46,7 @@ body {
 }
 
 .product-price {
-  margin-top: 25px;
+  margin-top: auto;
   display: flex;
   justify-content: space-between;
 }
@@ -122,18 +77,19 @@ body {
   cursor: pointer;
   }
 
+  .button:default {
+    box-shadow: 0px 0px 0px 1px rgba(70, 79, 96, 0.16),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+  }
+
 .button:hover {
   color: #8c8b8f;
-  box-shadow: 0px 0px 0px 1px #464F6052,
-  0px 1px 1px 0px #0000001A;
+  box-shadow: 0px 0px 0px 1px rgba(70, 79, 96, 0.32),
+  0px 1px 1px 0px rgba(0, 0, 0, 0.1);
   }
 
 .button:focus {
-  box-shadow: 0px 0px 0px 4px #4FDB8A33;
-  box-shadow: 0px 0px 0px 1px #464F6052;
-  box-shadow: 0px 1px 1px 0px #0000001A;
+  box-shadow: 0px 0px 0px 4px rgba(79, 219, 138, 0.2);
+  box-shadow: 0px 0px 0px 1px rgba(70, 79, 96, 0.32);
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
 }
-
-.button:active {
-  color: rgb(139, 3, 3);
-  }

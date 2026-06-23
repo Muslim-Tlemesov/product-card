@@ -1,0 +1,11 @@
+.products {
+  width: 1110px;
+  height: 1340px;
+  margin-bottom: 826px;
+  margin-left: 85px;
+  margin-right: 85px;
+  display: flex;
+  flex-wrap: wrap;  /* переносит элементы на новую строку, если они не помещаются в одну линию */
+  gap: 45px;   /* расстояние между элементами */
+  justify-content: center;
+}
