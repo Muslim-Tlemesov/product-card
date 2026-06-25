@@ -3,7 +3,7 @@
   color: #515076;
   background-color: #ffffff;
   width: 102px;
-  height: 31.62px;
+  height: 32px;
   font-size: 14px;
   display: flex;
   justify-content: space-between;
@@ -13,9 +13,6 @@
   border: 1px solid #747a86;
   border-radius: 6px;
   cursor: pointer;
-}
-
-.button:default {
   box-shadow: 0px 0px 0px 1px rgba(70, 79, 96, 0.16), 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
