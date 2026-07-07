@@ -13,14 +13,51 @@
   border: 1px solid #747a86;
   border-radius: 6px;
   cursor: pointer;
-  box-shadow: 0px 0px 0px 1px rgba(70, 79, 96, 0.16), 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+  box-shadow:
+    0px 0px 0px 1px rgba(70, 79, 96, 0.16),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
 .button:hover {
   color: #8c8b8f;
-  box-shadow: 0px 0px 0px 1px rgba(70, 79, 96, 0.32), 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+  box-shadow:
+    0px 0px 0px 1px rgba(70, 79, 96, 0.32),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
 .button:focus {
-  box-shadow: 0px 0px 0px 4px rgba(79, 219, 138, 0.2), 0px 0px 0px 1px rgba(70, 79, 96, 0.32), 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+  box-shadow:
+    0px 0px 0px 4px rgba(79, 219, 138, 0.2),
+    0px 0px 0px 1px rgba(70, 79, 96, 0.32),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.change-color-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.general-styling-btn {
+  width: 150px;
+  margin-bottom: 50px;
+  font-family: Montserrat;
+  font-size: 14px;
+  color: #515076;
+  background-color: #ffffff;
+  padding: 6px 12px;
+  border: 1px solid #747a86;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow:
+    0px 0px 0px 1px rgba(70, 79, 96, 0.16),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.general-styling-btn:hover {
+  color: #8c8b8f;
+  box-shadow:
+    0px 0px 0px 1px rgba(70, 79, 96, 0.32),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.1);
 }
