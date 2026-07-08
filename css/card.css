@@ -17,7 +17,7 @@
 .card__image {
   display: block;
   width: 290px;
-  height: 242.08px;
+  height: 242px;
 }
 
 .card__category {
@@ -26,7 +26,7 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 24px;
-  margin-top: 29.64px;
+  margin-top: 30px;
   margin-bottom: 5px;
   text-transform: uppercase;
 }
@@ -42,7 +42,7 @@
 .card__description {
   font-weight: 400;
   margin-top: 5px;
-  margin-bottom: 14.82px;
+  margin-bottom: 15px;
   line-height: 18px;
 }
 
