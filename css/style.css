@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: #515076;
+}
+
+.container {
+  max-width: 1280px;
+  height: 2574px;
+  margin: auto;
+  background-color: #FFFFFF;
+  background-image: url("/images/bg_1.png");
+  background-repeat: no-repeat;
+  background-size: 790px 697px;
+  background-position: 85px 0px;
+}
