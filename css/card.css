@@ -1,7 +1,6 @@
 .card {
   background-color: #f7f7fa;
   width: 340px;
-  height: 664px;
   padding: 25px;
   display: flex;
   flex-direction: column; /* Элементы идут друг под другом */
