@@ -61,3 +61,11 @@
     0px 0px 0px 1px rgba(70, 79, 96, 0.32),
     0px 1px 1px 0px rgba(0, 0, 0, 0.1);
 }
+
+#change-color-button {
+  background-color: cyan;
+}
+
+.button--yellow {
+  background-color: yellow !important;
+}
