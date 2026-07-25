@@ -13,7 +13,10 @@ function testSpeed(speed) {
     console.log('Субсветовая скорость')
   }
 }
-testSpeed()
+testSpeed(299792499)
+testSpeed(299792458)
+testSpeed(299792441)
+
 
 let product = 'bread';
 let priceProduct = 50;
@@ -30,7 +33,7 @@ checkPrice(20)
 function myAge(age) {
   console.log(`Мне ${age} лет`)
 }
-myAge(18)
+myAge(34)
 
 const city = 'Алматы';
 let myProfession = 'programmer';
