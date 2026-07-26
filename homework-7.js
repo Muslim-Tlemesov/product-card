@@ -1,40 +1,39 @@
-function knowWeather (city, temperature) {
-  console.log(`Сейчас в ${city} температура — ${temperature} градусов по Цельсию`)
-};
-knowWeather('Тюмень', 28)
+function knowWeather(city, temperature) {
+  console.log(`Сейчас в ${city} температура — ${temperature} градусов по Цельсию`);
+}
+knowWeather('Тюмень', 28);
 
 const SPEED_LIGHT = 299792458;
 function testSpeed(speed) {
   if (speed > SPEED_LIGHT) {
-    console.log('Сверхсветовая скорость')
+    console.log('Сверхсветовая скорость');
   } else if (speed === SPEED_LIGHT) {
-    console.log('Скорость света')
+    console.log('Скорость света');
   } else {
-    console.log('Субсветовая скорость')
+    console.log('Субсветовая скорость');
   }
 }
-testSpeed(299792499)
-testSpeed(299792458)
-testSpeed(299792441)
+testSpeed(299792499);
+testSpeed(299792458);
+testSpeed(299792441);
 
-
-let product = 'bread';
-let priceProduct = 50;
+const product = 'bread';
+const productPrice = 50;
 function checkPrice(currentBudget) {
-  if (currentBudget > priceProduct) {
-    console.log(`${product} приобретён. Спасибо за покупку!`)
+  if (currentBudget >= productPrice) {
+    console.log(`${product} приобретён. Спасибо за покупку!`);
   } else {
-    let calculateDiff = priceProduct - currentBudget;
-    console.log(`Вам не хватает ${calculateDiff}, пополните баланс`)
+    const calculatedDiff = productPrice - currentBudget;
+    console.log(`Вам не хватает ${calculatedDiff}, пополните баланс`);
   }
 }
-checkPrice(20)
+checkPrice(20);
 
 function myAge(age) {
-  console.log(`Мне ${age} лет`)
+  console.log(`Мне ${age} лет`);
 }
-myAge(34)
+myAge(34);
 
 const city = 'Алматы';
-let myProfession = 'programmer';
-let myReligion = 'Islam'
+const myProfession = 'programmer';
+const myReligion = 'Islam';
