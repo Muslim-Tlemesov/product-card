@@ -79,7 +79,7 @@ booksBy18thCenturyWriters.push({
 
 
 // задание 9
-const BooksByIslamicScholars = [
+const booksByIslamicScholars = [
   {
     title: "Аль-Муляххос аль-Фикхий",
     author: "Солих аль-Фаузан",
@@ -103,7 +103,7 @@ const BooksByIslamicScholars = [
   }
 ];
 
-const library = [...booksBy18thCenturyWriters, ...BooksByIslamicScholars];
+const library = [...booksBy18thCenturyWriters, ...booksByIslamicScholars];
 
 // задание 10
 const addPropertyRare = archive => {
