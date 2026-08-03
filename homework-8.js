@@ -23,13 +23,13 @@ const carData = {
 carData.carOwner = userData;
 
 // задание 5
-const addedMaxSpeed = automobile => {
+const addMaxSpeed = automobile => {
   if ('maxSpeed' in automobile) {
     return;
   };
   automobile.maxSpeed = 220
 }
-addedMaxSpeed(carData);
+addMaxSpeed(carData);
 
 console.log(carData);
 
@@ -37,16 +37,16 @@ console.log(carData);
 const fruitPrice = {
   apple: 20,
 }
-const outputedObjectProperty = (object, property) => {
+const outputObjectProperty = (object, property) => {
   console.log(object[property]);
 }
-outputedObjectProperty(fruitPrice, 'apple');
+outputObjectProperty(fruitPrice, 'apple');
 
 // задание 7
 const products = ["пшеница", "овес", "ячмень"];
 
 // задание 8
-const books = [
+const booksBy18thCenturyWriters = [
   {
     title: "Дубровский",
     author: "Пушкин",
@@ -69,7 +69,7 @@ const books = [
     genre: "Роман-эпопея",
   },
 ];
-books.push({
+booksBy18thCenturyWriters.push({
     title: "Собачье сердце",
     author: "Булгаков",
     yearManufacture: 1968,
@@ -79,7 +79,7 @@ books.push({
 
 
 // задание 9
-const books1 = [
+const BooksByIslamicScholars = [
   {
     title: "Аль-Муляххос аль-Фикхий",
     author: "Солих аль-Фаузан",
@@ -103,14 +103,14 @@ const books1 = [
   }
 ];
 
-const library = [...books, ...books1];
+const library = [...booksBy18thCenturyWriters, ...BooksByIslamicScholars];
 
 // задание 10
-const addedPropertyRare = archive => {
+const addPropertyRare = archive => {
   return archive.map(book => ({
     ...book,
     isRare: book.yearManufacture > 2000
   }));
 };
-const newLibrary = addedPropertyRare(library);
+const newLibrary = addPropertyRare(library);
 console.log(newLibrary);
