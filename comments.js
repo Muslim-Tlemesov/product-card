@@ -1,7 +1,7 @@
 // дз 5:
 export const listOfSocailMediaComments = [
   {
-    postId: 1,
+    postId: 1, 
     id: 1,
     name: "id labore ex et quam laborum",
     email: "Eliseo@gardner.biz",

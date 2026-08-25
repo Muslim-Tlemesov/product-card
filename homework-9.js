@@ -78,7 +78,6 @@ const arrayToString1 = mailOutput.join("|");
 
 
 
-
 // function a() {
 //   return [
 //     {
