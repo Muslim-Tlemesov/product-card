@@ -3,11 +3,11 @@ function knowWeather(city, temperature) {
 }
 knowWeather('Тюмень', 28);
 
-const SPEED_LIGHT = 299792458;
+const SPEED_OF_LIGHT = 299792458;
 function testSpeed(speed) {
-  if (speed > SPEED_LIGHT) {
+  if (speed > SPEED_OF_LIGHT) {
     console.log('Сверхсветовая скорость');
-  } else if (speed === SPEED_LIGHT) {
+  } else if (speed === SPEED_OF_LIGHT) {
     console.log('Скорость света');
   } else {
     console.log('Субсветовая скорость');
